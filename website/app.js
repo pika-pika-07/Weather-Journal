@@ -1,5 +1,5 @@
 /* Global Variables */
-
+const apikey = '&appid=393dc5e8600ff83768f34b5c3ec0f499&units=imperial'
 const generate = document.querySelector("#generate");
 const zip = document.querySelector("#zip");
 const date = document.querySelector('#date')
@@ -10,7 +10,7 @@ const apiBaseURL = 'http://localhost:3000'
 
 // Personal API Key for OpenWeatherMap API
 
-const apikey = '&appid=393dc5e8600ff83768f34b5c3ec0f499'
+
 const url =  'https://api.openweathermap.org/data/2.5/weather?zip='
 
 // Event listener to add function to existing HTML DOM element
