@@ -46,7 +46,7 @@ const process = async (url) => {
    
 }
 
-export const fetchWeatherData = async (newURL) => {
+const fetchWeatherData = async (newURL) => {
     
     const res = await fetch(newURL)
     try {
